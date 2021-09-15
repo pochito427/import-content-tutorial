@@ -1,0 +1,116 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "importContent.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/preAnalyzeImportFile",
+      "handler": "importContent.preAnalyzeImportFile",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "handler": "importContent.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/:importId/undo",
+      "handler": "importContent.undo",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importconfig",
+      "handler": "importConfig.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importconfig/:importId",
+      "handler": "importConfig.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importconfig/count",
+      "handler": "importConfig.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/importconfig/:importId",
+      "handler": "importConfig.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/importconfig/:importId",
+      "handler": "importConfig.delete",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importeditem",
+      "handler": "importedItem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importeditem/:importId",
+      "handler": "importedItem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/importeditem/count",
+      "handler": "importedItem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/importeditem/:importId",
+      "handler": "importedItem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/importeditem/:importId",
+      "handler": "importedItem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

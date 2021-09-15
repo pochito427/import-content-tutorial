@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "world_teams_appeareds",
+  "info": {
+    "name": "World Teams Appeared"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    },
+    "Appeared": {
+      "type": "integer"
+    }
+  }
+}

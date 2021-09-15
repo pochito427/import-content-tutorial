@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/world-teams-appeareds",
+      "handler": "world-teams-appeared.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/world-teams-appeareds/count",
+      "handler": "world-teams-appeared.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/world-teams-appeareds/:id",
+      "handler": "world-teams-appeared.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/world-teams-appeareds",
+      "handler": "world-teams-appeared.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/world-teams-appeareds/:id",
+      "handler": "world-teams-appeared.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/world-teams-appeareds/:id",
+      "handler": "world-teams-appeared.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
